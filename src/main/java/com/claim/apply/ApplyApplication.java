@@ -1,0 +1,15 @@
+package com.claim.apply;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("com.claim.apply.mapper")
+public class ApplyApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApplyApplication.class, args);
+	}
+
+}

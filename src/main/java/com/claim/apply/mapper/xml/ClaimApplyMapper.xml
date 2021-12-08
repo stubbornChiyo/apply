@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.claim.apply.mapper.ClaimApplyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.claim.apply.entity.ClaimApply">
+        <id column="id" property="id" />
+        <result column="report_number" property="reportNumber" />
+        <result column="car_number" property="carNumber" />
+        <result column="coordinator_name" property="coordinatorName" />
+        <result column="case_status" property="caseStatus" />
+        <result column="apply_state" property="applyState" />
+        <result column="undertaking_agency" property="undertakingAgency" />
+        <result column="coordinating_unit" property="coordinatingUnit" />
+        <result column="insurance_time" property="insuranceTime" />
+        <result column="holder_mobile" property="holderMobile" />
+        <result column="accident_address" property="accidentAddress" />
+        <result column="driver" property="driver" />
+        <result column="reporter" property="reporter" />
+        <result column="accident_explain" property="accidentExplain" />
+        <result column="accident_area" property="accidentArea" />
+        <result column="apply_man_uuid" property="applyManUuid" />
+        <result column="road_type" property="roadType" />
+        <result column="is_casualties" property="isCasualties" />
+        <result column="is_report_police" property="isReportPolice" />
+        <result column="is_compulsory" property="isCompulsory" />
+        <result column="note" property="note" />
+        <result column="created_time" property="createdTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>

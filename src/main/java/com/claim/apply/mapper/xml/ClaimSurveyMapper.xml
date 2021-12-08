@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.claim.apply.mapper.ClaimSurveyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.claim.apply.entity.ClaimSurvey">
+        <id column="id" property="id" />
+        <result column="report_number" property="reportNumber" />
+        <result column="actual_driver" property="actualDriver" />
+        <result column="driver_sex" property="driverSex" />
+        <result column="is_appoint_driver" property="isAppointDriver" />
+        <result column="allowed_type" property="allowedType" />
+        <result column="driver_license" property="driverLicense" />
+        <result column="accident_reason" property="accidentReason" />
+        <result column="responsibility" property="responsibility" />
+        <result column="process_type" property="processType" />
+        <result column="advance_money" property="advanceMoney" />
+        <result column="accident_area" property="accidentArea" />
+        <result column="accident_dept" property="accidentDept" />
+        <result column="accident_dept_other" property="accidentDeptOther" />
+        <result column="is_casualties" property="isCasualties" />
+        <result column="road_type" property="roadType" />
+        <result column="accident_type" property="accidentType" />
+        <result column="is_heavy_accident" property="isHeavyAccident" />
+        <result column="third_wound_num" property="thirdWoundNum" />
+        <result column="third_dead_num" property="thirdDeadNum" />
+        <result column="self_wound_num" property="selfWoundNum" />
+        <result column="self_dead_num" property="selfDeadNum" />
+        <result column="third_motor_num" property="thirdMotorNum" />
+        <result column="is_need_rescue" property="isNeedRescue" />
+        <result column="is_responsibility_dead" property="isResponsibilityDead" />
+        <result column="is_road_accident" property="isRoadAccident" />
+        <result column="is_nimble_pay" property="isNimblePay" />
+        <result column="is_reckon_case" property="isReckonCase" />
+        <result column="is_have_accident_book" property="isHaveAccidentBook" />
+        <result column="accident_book_no" property="accidentBookNo" />
+        <result column="is_self_pay" property="isSelfPay" />
+        <result column="is_substitute_pay" property="isSubstitutePay" />
+        <result column="is_substituted_pay" property="isSubstitutedPay" />
+        <result column="is_primary_scene" property="isPrimaryScene" />
+        <result column="survey_address" property="surveyAddress" />
+        <result column="survey_time" property="surveyTime" />
+        <result column="survey_result" property="surveyResult" />
+        <result column="note" property="note" />
+        <result column="created_time" property="createdTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>
