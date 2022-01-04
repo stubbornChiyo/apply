@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.claim.apply.mapper.CoordinateInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.claim.apply.entity.CoordinateInfo">
+        <id column="id" property="id" />
+        <result column="order_number" property="orderNumber" />
+        <result column="mechanism" property="mechanism" />
+        <result column="unit" property="unit" />
+        <result column="payment" property="payment" />
+        <result column="paymentDate" property="paymentDate" />
+        <result column="agent" property="agent" />
+        <result column="startingDay" property="startingDay" />
+        <result column="endDay" property="endDay" />
+        <result column="preparedBy" property="preparedBy" />
+        <result column="dealingUnit" property="dealingUnit" />
+        <result column="disputeResolution" property="disputeResolution" />
+        <result column="remark" property="remark" />
+        <result column="needUpload" property="needUpload" />
+        <result column="hasUpload" property="hasUpload" />
+        <result column="participantId" property="participantId" />
+        <result column="proxySignerId" property="proxySignerId" />
+        <result column="standardFee" property="standardFee" />
+        <result column="discount" property="discount" />
+        <result column="payable" property="payable" />
+        <result column="paid" property="paid" />
+        <result column="rate" property="rate" />
+        <result column="car_num" property="carNum" />
+        <result column="data_url" property="dataUrl" />
+        <result column="data_desc" property="dataDesc" />
+    </resultMap>
+
+</mapper>

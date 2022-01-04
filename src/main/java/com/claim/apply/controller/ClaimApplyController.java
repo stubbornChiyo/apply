@@ -2,6 +2,7 @@ package com.claim.apply.controller;
 
 
 import com.claim.apply.entity.ClaimApply;
+import com.claim.apply.entity.dto.ClaimApplyDTO;
 import com.claim.apply.entity.request.ResponseBean;
 import com.claim.apply.service.ClaimApplyService;
 import org.springframework.stereotype.Controller;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * <p>
@@ -32,5 +34,10 @@ public class ClaimApplyController extends BaseController {
         return new ResponseBean(claimApplyService.saveOrUpdate(claimApply));
     }
     //分页获取list - 支持搜索
+    public ResponseBean<List<ClaimApply>> list(@RequestBody ClaimApplyDTO claimApplyDTO){
+
+        return null;
+    }
+
 }
 

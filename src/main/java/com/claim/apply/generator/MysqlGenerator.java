@@ -51,7 +51,7 @@ public class MysqlGenerator {
         strategy.setSuperEntityClass("com.claim.apply.entity.BaseEntity");
         // strategy.setTablePrefix("t_"); // 表名前缀
         strategy.setEntityLombokModel(true); //使用lombok
-        strategy.setInclude("loss_benche");  // 逆向工程使用的表   如果要生成多个,这里可以传入String[]
+        strategy.setInclude("coordinate_info","coordinate_person","coordinate_car","coordinate_project_detail","coordinate_bill");  // 逆向工程使用的表   如果要生成多个,这里可以传入String[]
         mpg.setStrategy(strategy);
 
         //5、执行

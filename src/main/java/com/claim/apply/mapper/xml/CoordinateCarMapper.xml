@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.claim.apply.mapper.CoordinateCarMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.claim.apply.entity.CoordinateCar">
+        <id column="id" property="id" />
+        <result column="carNumber" property="carNumber" />
+        <result column="frameNumber" property="frameNumber" />
+        <result column="brandModel" property="brandModel" />
+        <result column="engineNumber" property="engineNumber" />
+        <result column="nature" property="nature" />
+        <result column="quality" property="quality" />
+        <result column="numberOfPeople" property="numberOfPeople" />
+        <result column="price" property="price" />
+        <result column="registrationDate" property="registrationDate" />
+        <result column="ownerName" property="ownerName" />
+        <result column="transferDate" property="transferDate" />
+        <result column="transferFlag" property="transferFlag" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.claim.apply.mapper.CoordinateBillMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.claim.apply.entity.CoordinateBill">
+        <id column="id" property="id" />
+        <result column="category" property="category" />
+        <result column="type" property="type" />
+        <result column="buyerNname" property="buyerNname" />
+        <result column="cardType" property="cardType" />
+        <result column="cardNo" property="cardNo" />
+        <result column="taxpayerCode" property="taxpayerCode" />
+        <result column="accountBank" property="accountBank" />
+        <result column="publicAccount" property="publicAccount" />
+        <result column="address" property="address" />
+        <result column="phone" property="phone" />
+        <result column="remark" property="remark" />
+        <result column="account" property="account" />
+        <result column="mailingAddress" property="mailingAddress" />
+        <result column="recipientName" property="recipientName" />
+        <result column="recipientPhone" property="recipientPhone" />
+        <result column="order_number" property="orderNumber" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.claim.apply.mapper.CoordinateProjectDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.claim.apply.entity.CoordinateProjectDetail">
+        <id column="id" property="id" />
+        <result column="order_number" property="orderNumber" />
+        <result column="project_name" property="projectName" />
+        <result column="quota" property="quota" />
+        <result column="standardFee" property="standardFee" />
+        <result column="discountRate" property="discountRate" />
+        <result column="payable" property="payable" />
+        <result column="seats" property="seats" />
+        <result column="grass" property="grass" />
+        <result column="grassSpecial" property="grassSpecial" />
+    </resultMap>
+
+</mapper>
